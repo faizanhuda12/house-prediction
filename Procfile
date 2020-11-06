@@ -1,1 +1,1 @@
-web: sudo gunicorn app:app --timeout 10 --bind 0.0.0.0:80
+web: python3.6 app.py
