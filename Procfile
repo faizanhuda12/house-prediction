@@ -1,1 +1,1 @@
-web: gunicorn app:app --timeout 10 -b 0.0.0.0:80
+web: sudo gunicorn app:app --timeout 10 --bind 0.0.0.0:80
